@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #eee;
+        }
+        form{
+            margin: 10% auto;
+            background-color: white;
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            text-align: center;
+        }
+        #username{
+            margin: 5px;
+            padding: 5px;
+        }
+        .success{
+            border: 2px solid limegreen;
+        }
+        .error{
+            border: 2px solid crimson;
+        }
+    </style>
+</head>
+<body>
+    <form class="signup-form">
+        <input type="text" name="username" id="username" placeholder="username"><br>
+        <div class="feedback">
+            <p class="feedback-info"></p>
+        </div>
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <script src="formevents.js"></script>
+</body>
+</html>
